@@ -20,6 +20,8 @@ return [
             'test'=>'site/test'
               ],
         ],  */    
+
+        
         'user' => [
             'identityClass' => 'common\models\User',
             'enableAutoLogin' => true,
