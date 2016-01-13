@@ -12,15 +12,7 @@ return [
     'bootstrap' => ['log'],
     'controllerNamespace' => 'frontend\controllers',
     'components' => [
-      /* 'urlManager' => [
-        'enablePrettyUrl' => true,
-        'showScriptName'=>false,
-        'suffix'=>'.gps',
-            'rules' => [
-            'test'=>'site/test'
-              ],
-        ],  */    
-
+    
         
         'user' => [
             'identityClass' => 'common\models\User',
