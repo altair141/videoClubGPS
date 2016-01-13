@@ -13,6 +13,7 @@ return [
     'controllerNamespace' => 'frontend\controllers',
     'components' => [
         'urlManager' => [
+<<<<<<< HEAD
             'enablePrettyUrl' => true,
             'showScriptName'=>false,
             'suffix'=>'.html',
@@ -21,6 +22,15 @@ return [
                 ],
         ],
         
+=======
+        'enablePrettyUrl' => true,
+        'showScriptName'=>false,
+        'suffix'=>'.gps',
+            'rules' => [
+            'test'=>'site/test'
+              ],
+        ],      
+>>>>>>> parent of 8b7b818... url manager omitida
         'user' => [
             'identityClass' => 'common\models\User',
             'enableAutoLogin' => true,
